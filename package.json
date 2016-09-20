@@ -35,7 +35,6 @@
     "standard": "git+https://github.com/tivonaporter/standard.git"
   },
   "scripts": {
-    "start": "node app",
-    "postinstall": "gulp default"
+    "start": "node bin/www"
   }
 }
