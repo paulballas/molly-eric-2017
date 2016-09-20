@@ -1,4 +1,5 @@
 var gulp = require('gulp'),
+  watch = require('gulp-watch')
   nodemon = require('gulp-nodemon'),
   plumber = require('gulp-plumber'),
   livereload = require('gulp-livereload'),
@@ -39,6 +40,11 @@ gulp.task('develop', function () {
   });
 });
 
+gulp.task('images', function () {
+	return gulp.src('src/images/*')
+		.pipe(gulp.dest('build/images'));
+});
+
 gulp.task('coffee', function() {
   gulp.src('./src/js/*.coffee')
     .pipe(coffee({bare: true}))
@@ -48,6 +54,7 @@ gulp.task('coffee', function() {
 
 gulp.task('default', [
   'sass',
+  'images',
   'develop',
   'coffee',
   'watch'
