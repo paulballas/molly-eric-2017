@@ -28,7 +28,9 @@
     "npm": "^3.10.6",
     "pluralize": "^3.0.0",
     "serve-favicon": "^2.3.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "modularscale-sass": "^2.1.1",
+    "standard": "git+https://github.com/tivonaporter/standard.git"
   },
   "devDependencies": {
     "modularscale-sass": "^2.1.1",
