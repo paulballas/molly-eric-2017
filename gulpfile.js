@@ -15,7 +15,6 @@ gulp.task('sass', function () {
       includePaths: ['node_modules/modularscale-sass/stylesheets', 'node_modules/standard/src/sass']
     }))
     .pipe(gulp.dest('./build/css'))
-    .pipe(livereload());
 });
 
 gulp.task('watch', function() {
