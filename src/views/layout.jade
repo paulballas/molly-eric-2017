@@ -1,0 +1,92 @@
+-var title = 'Molly & Eric 2017'
+
+block settings
+  - var slug = "unknown"
+  - var page = "Unknown"
+
+doctype html
+html(lang='en' class = "#{slug}" data-page='#{page}' )
+  head
+    meta(charset='UTF-8')
+    meta( content="width=device-width, user-scalable=no", name="viewport" )
+    meta( name="description", content="Bellwether coffee")
+      
+    meta( property="og:title", content="Molly & Eric 2017" )
+    meta( property="og:type", content="website" )
+    meta( property="og:url", content="http://www.mollyanderic2017.com" )
+    meta( property="og:description", content="Molly & Eric 2017" )
+    meta( property="og:image", content="http://www.mollyanderic2017.com/images/all/beach.png" )
+    meta( property="og:image:width", content="120" )
+    meta( property="og:image:height", content="120" )
+      
+    meta( property="twitter:card", content="summary_large_image" )
+    meta( property="twitter:url", content="http://www.mollyanderic2017.com" )
+    meta( property="twitter:title", content="Molly & Eric 2017" )
+    meta( property="twitter:description", content="Molly & Eric 2017" )
+    meta( property="twitter:image", content="http://www.mollyanderic2017.com/images/all/beach.png" )
+    title= title
+    
+    link(rel='icon', type='image/png', href='/images/favicon-32x32.png', sizes='32x32')
+    link(rel='icon', type='image/png', href='/images/favicon-16x16.png', sizes='16x16')
+    link(rel='manifest', href='/images/manifest.json')
+    link(rel='mask-icon', href='/images/safari-pinned-tab.svg', color='#5bbad5')
+    meta(name='theme-color', content='#ffffff')
+    
+    block css
+      link(link href="https://fonts.googleapis.com/css?family=Montez" rel="stylesheet")
+      link(rel='stylesheet', href='/css/app.css')
+    block js
+      if ENV_DEVELOPMENT
+        script(src='http://localhost:35729/livereload.js')
+  body
+    .wrapper
+      block hero
+        .mobile-header
+          .container
+            .row
+              .col-xs-12
+                a.mobile-menu
+                  img.svg(src="/images/all/menu.svg")
+            .row.center-xs.mobile-links-section
+              .col-xs-12.dark-bg.mobile-link
+                a.small(href='#home') home
+              .col-xs-12.dark-bg.mobile-link
+                a.small(href='#story') our story
+              .col-xs-12.dark-bg.mobile-link
+                a.small(href='#abou') about us
+              .col-xs-12.dark-bg.mobile-link
+                a.small(href='#location') location
+              .col-xs-12.dark-bg.mobile-link
+                a.small(href='#schedule') schedule
+              .col-xs-12.dark-bg.mobile-link
+                a.small(href='#accommodations') accommodations
+        .header
+          .container
+            .row.middle-xs.end-md.center-xs
+              .col-md-10.col-xs-12
+                ul.p-t-xs-1.p-b-xs-1
+                  li.small.dark-bg
+                    a(href='#home') home
+                  li.small.dark-bg.p-l-xs-1
+                    a(href='#story') our story
+                  li.small.dark-bg.p-l-xs-1
+                    a(href='#about') about us
+                  li.small.dark-bg.p-l-xs-1
+                    a(href='#location') location
+                  li.small.dark-bg.p-l-xs-1
+                    a(href='#schedule') schedule
+                  li.small.dark-bg.p-l-xs-1
+                    a(href='#accommodations') Accommodations
+                
+      block content
+      block footer
+        .footer.navy-bg
+          .container.dark-bg
+            .pad-ends-sm
+              .row
+                .col-xs-12.center-text-xs
+                  h3.cursive.m-b-xs-0 E + M
+    block scripts
+      script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBE4qeuFsjoS8CLiny2aIm_mbCR27UU3Hk")
+      script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js')
+      script(src='/js/app.js')

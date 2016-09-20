@@ -1,0 +1,185 @@
+extends layout
+
+block settings
+  - var slug = "home"
+  - var page = "Home"
+
+block content
+  .home-bg#home
+    .container
+      .pad-ends-lg
+        .row
+          .col-xs-12.dark-bg
+            h1.cursive.big-type.fadeInUp.animated Eric + Molly
+            .space-1
+            .left-border.fadeInUp.animated.delay
+              h3.m-b-xs-0 August 27, 2016
+              h4.m-b-xs-0.gilroy-bold St. Michaels, MD
+  .navy-bg.our-story#story
+    .container.dark-bg
+      .pad-ends
+        .row
+          .col-md-8.col-md-offset-2.col-xs-12
+            img.svg.heart.m-b-xs-1(src='/images/all/heart.svg')
+            h1.cursive Our Story
+            p We met online (jdate!) and had a very romantic first lunch-date during the work day in the Crystal City mall. That was followed by a long date walking around Union Market, taking Olive hiking, hanging with Jager at home, and Molly's first Caps game. 
+            p Not much has changed--we still go to Union Market, plan most dates around if the dog can come, and go to as many Caps games as possible.
+  .gray-bg.about-us#about
+    .container.navy-text
+      .pad-ends-md
+        .row.middle-xs
+          .col-md-5.col-xs-12.left-text-md.center-text-xs.first-xs.push-right
+            h2.museo We love.
+            h4 Cooking on our patio, taking Olive for a walk, and eating dumplings at our favorite restaurant on H street.
+          .col-md-7.col-xs-12
+            img(src='/images/all/dog-sq.png')
+    .separator
+    
+    .container.navy-text
+      .pad-ends-md
+        .row.middle-xs
+          .col-md-7.col-xs-12.first-xs.push-right
+            img(src='/images/all/boat-sq.png')
+          .col-md-5.col-xs-12.left-text-md.center-text-xs
+            h2.museo Favorite dinner.
+            h4 The French Laundry in Yountville, California.
+    .separator
+    
+    .container.navy-text
+      .pad-ends-md
+        .row.middle-xs
+          .col-md-5.col-xs-12.left-text-md.center-text-xs.push-right
+            h2.museo Our honeymoon.
+            h4 Jackson Hole, Wyoming.
+          .col-md-7.col-xs-12
+            img(src='/images/all/baseball-sq.png')
+    .separator
+    
+    .container.navy-text
+      .pad-ends-md
+        .row.middle-xs
+          .col-md-7.col-xs-12.push-right
+            img(src='/images/all/fishing-sq.png')
+          .col-md-5.col-xs-12.left-text-md.center-text-xs
+            h2.museo Best memory.
+            h4 Getting engaged at Miacomet Beach in Nantucket.
+  .location.red-bg#location
+    .container
+      .pad-ends-md
+        .row
+          .col-xs-12.dark-bg
+            h2.museo Locations
+        .space-1
+        .row
+          .col-md-6.col-xs-12.center-text-xs
+            .map-wrapper
+              iframe.map(iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Eastern%20Shore%20Brewing%2C%20South%20Talbot%20Street%2C%20Saint%20Michaels%2C%20MD%2C%20United%20States&key=AIzaSyDE3A8SU1izd8iSYD5SnQRBMfY5Fa5_z8s" allowfullscreen)
+            .map-details
+              img.svg(src='/images/all/celebrate.svg')
+              .space-1
+              h3.gilroy-bold.m-b-xs-0 Welcome party.
+              .space-1
+              .separator
+              .space-1
+              h4.small.m-b-xs-0
+                b.museo 9PM · August 25th, 2017 
+              p.m-b-xs-0 Eastern Shore Brewing
+              p.small 605 S Talbot St, St Michaels, MD 21663              
+              a(href='http://www.easternshorebrewing.com' target="_blank") easternshorebrewing.com
+              
+          .col-md-6.col-xs-12.center-text-xs
+            .map-wrapper
+              iframe.map(iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/search?q=Chesapeake%20Bay%20Maritime%20Museum%2C%20Saint%20Michaels%2C%20MD%2C%20United%20States&key=AIzaSyDE3A8SU1izd8iSYD5SnQRBMfY5Fa5_z8s" allowfullscreen)
+            .map-details
+              img.svg(src='/images/all/rings.svg')
+              .space-1
+              h3.gilroy-bold.m-b-xs-0 Ceremony & reception.
+              .space-1
+              .separator
+              .space-1
+              h4.small.m-b-xs-0
+                b.museo 5PM · August 26th, 2017 
+              p.m-b-xs-0 Chesapeake Bay Maritime Museum
+              p.small 213 N Talbot St, St Michaels, MD 21663
+              a(href='http://cbmm.org/' target="_blank") cbmm.org
+  .container.schedule#schedule
+    .pad-ends
+      .row
+        .col-xs-12
+          h2.museo Schedule
+          .space-1
+        .col-md-4.col-xs-12
+          h4.gilroy-bold.navy-text August 26, 2017
+        .col-md-8.col-xs-12
+          .d-flex
+            img.svg(src='/images/all/bus.svg')
+            div
+              h3.m-b-xs-0 4PM
+              p.m-b-xs-0 Shuttle bus pickup
+              p.small.red-text St. Michaels Inn.
+          .d-flex
+            img.svg(src='/images/all/heart-nv.svg')
+            div
+              h3.m-b-xs-0 5PM
+              p Wedding ceremony
+              p.small.red Chesapeake Bay Maritime Museum
+              
+          .d-flex
+            img.svg(src='/images/all/champagne.svg')
+            div
+              h3.m-b-xs-0 5:30PM
+              p.m-b-xs-0 Wedding reception.
+              p.small.red-text Chesapeake Bay Maritime Museum
+          .d-flex
+            img.svg(src='/images/all/beer.svg')
+            div
+              h3.m-b-xs-0 10PM
+              p.m-b-xs-0 After party!
+              p.small.red-text Carpenter Street Saloon
+  .gray-bg.travel#accommodations
+    .container
+      .container
+        .pad-ends-md
+          .row
+            .col-xs-12
+              h2.museo Travel and Accommodations
+              .space-2
+          .row
+            .col-md-4.col-xs-12
+              h4 Accommodations
+            .col-md-8.col-xs-12
+              h4.gilroy-bold.m-b-xs-0 St. Michaels Inn
+              p.small.m-b-xs-0 1228 S Talbot St, St Michaels, MD 21663, USA
+              p.small.navy-text
+                b (410) 745-3333
+              p.small
+                b Please call and ask for the room block rate for Molly and Eric. It should be around $160-$170 for eiether a king, queen, or double.
+          .space-4
+          .row
+            .col-md-4.col-xs-12
+              h4 Airports
+            .col-md-8.col-xs-12
+              h4.gilroy-bold.m-b-xs-0 BWI or DCA
+              p.small.m-b-xs-0 We recommend flying into either 
+                b.gilroy-bold BWI (Baltimore) 
+                | or 
+                b.gilroy-bold DCA (Ronald Reagan Airport, DC)
+                | . Both airports are about an hour and a half from St. Michaels.
+              
+          .space-4
+          .row
+            .col-md-4.col-xs-12
+              h4 Things to Check Out in St. Michaels
+            .col-md-8.col-xs-12
+              ul
+                li.small.red-text 
+                  a(href='Eastern Shore Brewing Company') Eastern Shore Brewing Company
+                li.small.red-text 
+                  a(href='http://lyondistilling.com/') Lyon Distilling Co.
+                li.small.red-text 
+                  a(href='http://stmichaelsmuseum.org/') St. Michael's Museum
+                li.small.red-text 
+                  a(href='http://cbmm.org/') Chesapeake Maritime Museum (of course)
+                li.small.red-text
+                  a(href='http://www.patriotcruises.com/') Patriot Cruises
+              

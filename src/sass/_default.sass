@@ -1,0 +1,59 @@
+html, body
+  margin: 0
+  padding: 0
+  .wrapper
+    background: $white
+    max-width: ms(19)
+    margin: 0 auto
+
+.d-flex
+  display: flex
+
+.pad-ends
+  padding-top: ms(6)
+  padding-bottom: ms(6)
+  +target(md)
+    padding-top: ms(8)
+    padding-bottom: ms(8)
+
+.pad-ends-lg
+  padding-top: ms(8)
+  padding-bottom: ms(8)
+  +target(md)
+    padding-top: ms(10)
+    padding-bottom: ms(10)
+
+.pad-ends-md
+  padding-top: ms(4)
+  padding-bottom: ms(4)
+  +target(md)
+    padding-top: ms(6)
+    padding-bottom: ms(6)
+
+.pad-ends-sm
+  padding-top: ms(1)
+  padding-bottom: ms(1)
+  +target(md)
+    padding-top: ms(2)
+    padding-bottom: ms(2)
+
+.navy-bg
+  background: $navy
+
+.red-bg
+  background: $red
+
+.dark-gray-bg
+  background: $dark-gray
+
+.gray-bg
+  background: $gray
+
+.light-gray-bg
+  background: $light-gray
+
+.separator
+  margin: 0 auto
+  height: 2px
+  width: ms(5)
+  background: $dark-gray

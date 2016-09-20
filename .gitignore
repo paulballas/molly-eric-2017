@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+build
+Desktop.ini
+node_modules
+env.js
+*.env
+npm-debug.log
+STAR_pana_com.pem
+STAR_pana_com.key
