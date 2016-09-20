@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Eric and Molly 2017 wedding website",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "engines": {
+    "node": "4.4.4"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
@@ -35,6 +35,6 @@
     "standard": "git+https://github.com/tivonaporter/standard.git"
   },
   "scripts": {
-    "start": "node bin/www"
+    "start": "node ./bin/www"
   }
 }
