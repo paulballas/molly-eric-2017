@@ -1,5 +1,5 @@
 {
-  "name": "EM",
+  "name": "eric-molly",
   "version": "0.0.1",
   "description": "Eric and Molly 2017 wedding website",
   "private": true,
@@ -33,5 +33,9 @@
   "devDependencies": {
     "modularscale-sass": "^2.1.1",
     "standard": "git+https://github.com/tivonaporter/standard.git"
+  },
+  "scripts": {
+    "start": "node app",
+    "postinstall": "gulp default"
   }
 }
