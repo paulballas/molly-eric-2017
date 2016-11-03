@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="25px" viewBox="0 0 20 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>menu-blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="menu-blue" stroke="#3A5278">
+            <path d="M19.5,21.5059 C19.5,22.6109 18.604,23.5059 17.5,23.5059 L3.5,23.5059 C2.396,23.5059 1.5,22.6109 1.5,21.5059 L1.5,2.5059 C1.5,1.4019 2.396,0.5059 3.5,0.5059 L17.5,0.5059 C18.604,0.5059 19.5,1.4019 19.5,2.5059 L19.5,21.5059 L19.5,21.5059 Z" id="Stroke-2274"></path>
+            <path d="M0.5,4.5059 L2.5,4.5059" id="Stroke-2275"></path>
+            <path d="M0.5,7.5059 L2.5,7.5059" id="Stroke-2276"></path>
+            <path d="M0.5,10.5059 L2.5,10.5059" id="Stroke-2277"></path>
+            <path d="M0.5,13.5059 L2.5,13.5059" id="Stroke-2278"></path>
+            <path d="M0.5,16.5059 L2.5,16.5059" id="Stroke-2279"></path>
+            <path d="M0.5,19.5059 L2.5,19.5059" id="Stroke-2280"></path>
+            <path d="M4.4775,7.4473 L6.7755,9.7453 C7.5365,10.5073 8.7705,10.5073 9.5325,9.7453 C10.2935,8.9843 10.2935,7.7503 9.5325,6.9883 L7.2345,4.6903" id="Stroke-2281"></path>
+            <path d="M5.8555,6.0688 L15.5235,15.7368" id="Stroke-2282"></path>
+            <path d="M12.8994,9.7456 L6.8544,15.7896" id="Stroke-2283"></path>
+            <path d="M13.8184,6.0688 C14.5794,5.3078 15.8134,5.3078 16.5754,6.0688 C17.3354,6.8298 17.3354,8.0648 16.5754,8.8258 L15.6564,9.7458 C14.8944,10.5068 13.6604,10.5068 12.8994,9.7458 C12.1374,8.9848 12.1374,7.7498 12.8994,6.9878 L13.8184,6.0688 L13.8184,6.0688 Z" id="Stroke-2284"></path>
+        </g>
+    </g>
+</svg>
